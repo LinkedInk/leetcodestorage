@@ -19,6 +19,6 @@ public:
         for (int num : nums) {
             myset.insert(num);
         }
-        return (myset.size() != nums.size())
+        return (myset.size() != nums.size());
     }
 };
