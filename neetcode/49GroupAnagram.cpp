@@ -40,7 +40,7 @@ public:
     }
 
     void countChars(string& str, array<int, 26> mycount) {
-        for (char c : string) {
+        for (char c : str) {
             mycount[c - 'a']++;
         }
     }

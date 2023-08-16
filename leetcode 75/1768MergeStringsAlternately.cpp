@@ -8,7 +8,7 @@ public:
         string final;
         final.resize(word1.length() + word2.length());
         string::iterator it1 = word1.begin();
-        string::iterator it2 = word2.being();
+        string::iterator it2 = word2.begin();
 
         while (it1 != word1.end() && it2 != word2.end()) {
             final.push_back(*it1);
