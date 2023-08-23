@@ -1,5 +1,6 @@
-*exe
+*.exe
 *.ilk
 *.obj
 *.pdb
 .vscode
+test.cpp
